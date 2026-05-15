@@ -1,0 +1,192 @@
+body {
+    background: linear-gradient(135deg, #c399fc 0%, #dddddd 100%);
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-fixa {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px;
+    box-sizing: border-box;
+    z-index: 100;
+    pointer-events: none; 
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    pointer-events: auto;
+}
+
+.pages {
+    pointer-events: auto;
+}
+
+.pages ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.pages a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.pages a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+}
+
+.container-capa {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.capa img {
+    width: 96%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.camsense { 
+    width: 100%;
+    display: block;
+    margin-top: 50px; 
+}
+
+.container-cam {
+    width: 96%;              
+    margin: 0 auto;        
+    font-size: 30px;
+    font-weight: 300;      
+    line-height: 1.6;
+    color: #1a1a1a;
+    text-align: justify;  
+    box-sizing: border-box;
+    
+}
+
+/* ===== EQUIPE ===== */
+.equipe {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    align-content: flex-start;
+}
+
+.equipe > h1 {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+.members {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 35px 32px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, Calibri, cursive;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+    flex: 0 0 calc(25% - 22px);
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100%;
+}
+
+.members:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    transform: translateY(-5px);
+}
+
+#felippetuma,
+#diegorocha,
+#renansilva,
+#davitoyota {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.membro h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #c9a96e;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin: 0 auto;
+}
+
+.membro img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.membro p {
+    flex-grow: 1;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.membro .links {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
