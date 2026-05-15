@@ -90,6 +90,12 @@ body {
     
 }
 
+.prototipo {
+    margin: 0 auto;
+    width: 96%;
+}
+
+
 /* ===== EQUIPE ===== */
 .equipe {
     width: 100%;
@@ -102,7 +108,8 @@ body {
 }
 
 .equipe > h1 {
-    width: 100%;
+    margin: 0 auto;
+    width: 97%;
     text-align: left;
     padding-left: 20px;
     margin-bottom: 20px;
