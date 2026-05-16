@@ -6,6 +6,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 .navbar-fixa {
     position: fixed;
     top: 0;
@@ -93,6 +94,177 @@ body {
 .prototipo {
     margin: 0 auto;
     width: 96%;
+    margin-top: 50px;
+}
+
+.prototipo h1 {
+    font-size: 36px;
+    color: #1a1a1a;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.prototipo-container-jovihelp {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.jovihelp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    width: fit-content;
+    padding: 15px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+.jovihelp:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.imagemjovihelp img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.jovihelp-texto {
+    width: 40%;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #1a1a1a;
+    text-align: justify;
+}
+
+.prototipo-containernoturno {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.jovimodonoturno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    width: fit-content;
+    padding: 15px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.jovimodonoturno:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imagemmodonoturno img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.jovimodonoturno-texto {
+    width: 40%;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #1a1a1a;
+    text-align: justify;
+}
+
+.prototipo-containerpet {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.jovimodopet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    width: fit-content;
+    padding: 15px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.jovimodopet:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imagemmodopet img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.jovimodopet-texto {
+    width: 40%;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #1a1a1a;
+    text-align: justify;
+}
+
+.prototipo-containerdocs {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.jovimododocs:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.jovimododocs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    width: fit-content;
+    padding: 15px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.imagemmododocs img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.jovimododocs-texto {
+    width: 40%;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #1a1a1a;
+    text-align: justify;
 }
 
 
@@ -196,4 +368,40 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.25);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+}
+
+/* sobre-nos */
+.sobre-nos {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.container-sobre {
+    width: 96%;
+    margin: 0 auto;
+    padding: 40px;
+    
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    box-sizing: border-box;
+}
+
+.container-sobre h1 {
+    font-size: 36px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.container-sobre p {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #1a1a1a;
+    font-weight: 300;
+    margin-bottom: 18px;
+    text-align: justify;
 }
