@@ -1,4 +1,4 @@
-# Sprint 02 Jovi Web Development - Visionists
+# Sprint 02 Jovi Front End - Visionists
 
 ## Integrantes:
 
